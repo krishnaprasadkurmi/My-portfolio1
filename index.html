@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Prasad Kurmi Portfolio</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+            line-height:1.6;
+        }
+
+        header{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:30px;
+        }
+
+        nav{
+            background:#444;
+            padding:15px;
+            text-align:center;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            color:yellow;
+        }
+
+        main{
+            padding:20px;
+        }
+
+        section{
+            background:white;
+            margin:20px 0;
+            padding:20px;
+            border-radius:10px;
+        }
+
+        img{
+            display:block;
+            margin:auto;
+            border-radius:50%;
+        }
+
+        ul{
+            margin-left:20px;
+        }
+
+        form{
+            display:flex;
+            flex-direction:column;
+        }
+
+        input, textarea{
+            padding:10px;
+            margin:10px 0;
+        }
+
+        button{
+            background:#333;
+            color:white;
+            padding:10px;
+            border:none;
+            cursor:pointer;
+        }
+
+        footer{
+            background:#333;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Krishna Prasad Kurmi</h1>
+    <p>Full Stack Web Developer</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<main>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <img src="images\profile.jpeg"
+             alt="Profile picture of Krishna Kurmi"
+             width="180">
+
+        <p>
+            Hello! My name is Krishna Prasad Kurmi. I am a passionate Full Stack Web Developer
+            who enjoys building websites and web applications. I have experience with
+            HTML, CSS, JavaScript, React, Node.js, MongoDB, Figma, Canva, and other
+            modern development tools.
+        </p>
+
+        <p>
+            I am continuously learning new technologies and improving my skills
+            to become a better software developer.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>MongoDB</li>
+            <li>Git & GitHub</li>
+            <li>Figma</li>
+            <li>Canva</li>
+            <li>CapCut</li>
+        </ul>
+
+        <h3>Tools</h3>
+
+        <ul>
+            <li>Visual Studio Code</li>
+            <li>GitHub</li>
+            <li>Figma</li>
+            <li>Canva</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <label for="name">Name</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                minlength="3">
+
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required>
+
+            <label for="message">Message</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+
+        <br>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/" target="_blank">
+                Visit My GitHub
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://linkedin.com/" target="_blank">
+                Visit My LinkedIn
+            </a>
+        </p>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Krishna Prasad Kurmi. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+```
